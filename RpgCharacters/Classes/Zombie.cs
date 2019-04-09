@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RpgCharacters.Classes
 {
-	class Zombie : Mer
+	public class Zombie : Mer
 	{
 		public override int LevelUp()
 		{

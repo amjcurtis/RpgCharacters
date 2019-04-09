@@ -1,4 +1,5 @@
 ﻿using System;
+using RpgCharacters.Classes;
 
 namespace RpgCharacters
 {
@@ -6,7 +7,9 @@ namespace RpgCharacters
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine();
+			Zombie zombie = new Zombie();
+			Console.WriteLine(zombie.HasMagic);
 		}
 	}
 }
